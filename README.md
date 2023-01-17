@@ -9,4 +9,4 @@ The "map_function" reads the contents of a file, splits it into words, and retur
 
 The "reduce_function" takes a list of these tuples and returns a single tuple containing each word and the total number of occurrences across all files.
 
-The main function applies the map_function to each file in a list of file names using the worker pool, then applies the reduce_function to the resulting list
+The "main" function applies the "map_function" to each file in a list of file names using the worker pool, then applies the "reduce_function" to the resulting list
